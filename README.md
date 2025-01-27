@@ -31,7 +31,6 @@ Create a `.env` file in the root directory of the project and add the following 
 
 ```env
 DATABASE_URL=mysql://myuser:nooroDB123%3F%3F@localhost:3306/noorodb?schema=public
-PORT=3001
 ```
 
 - Replace `username` and `password` with your MySQL credentials.
