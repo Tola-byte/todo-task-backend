@@ -35,7 +35,7 @@ export const editTask = async (
     res.json(updatedTask);
   } catch (error) {
     res.status(500).json({
-      error: 'Failed to update task',
+      message: 'Failed to update task',
       details: error instanceof Error ? error.message : 'Unknown error',
     });
   }

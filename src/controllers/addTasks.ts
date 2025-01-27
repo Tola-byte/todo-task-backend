@@ -17,7 +17,7 @@ export const addTask = async (req: Request, res: Response) => {
   } catch (error) {
     res.status(500).json({
       error: 'Failed to create task',
-      details: error instanceof Error ? error.message : 'Unknown error',
+      details: error instanceof Error ? error.message : 'Failed to create task',
     });
   }
 };

@@ -8,6 +8,6 @@ export const deleteTasks = async (req: Request, res: Response) => {
     });
     res.status(204).send({ message: 'Deleted successfully' });
   } catch (error) {
-    res.status(404).json({ error: 'Task not found' });
+    res.status(404).json({ message: 'Task not found' });
   }
 };
