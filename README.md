@@ -30,7 +30,7 @@ yarn install
 Create a `.env` file in the root directory of the project and add the following variables:
 
 ```env
-DATABASE_URL=mysql://username:password@localhost:3306/todo_db
+DATABASE_URL=mysql://myuser:nooroDB123%3F%3F@localhost:3306/noorodb?schema=public
 PORT=3001
 ```
 
