@@ -13,7 +13,7 @@ Ensure you have the following installed:
 #### 1. Clone the backend repository:
 
 ```bash
-git clone <backend-repo-url>
+git clone <https://github.com/Tola-byte/todo-task-backend>
 cd <backend-repo-folder>
 ```
 
@@ -32,9 +32,6 @@ Create a `.env` file in the root directory of the project and add the following 
 ```env
 DATABASE_URL=mysql://myuser:nooroDB123%3F%3F@localhost:3306/noorodb?schema=public
 ```
-
-- Replace `username` and `password` with your MySQL credentials.
-- Replace `todo_db` with the name of your database.
 
 #### 4. Initialize the database with Prisma:
 
@@ -79,7 +76,7 @@ Run the Next.js app and visit `http://localhost:3000` in your browser. The front
 ## Additional Notes
 
 - **Frontend:**
-  - The API base URL can be customized in the `.env.local` file.
+  - The API base URL can be customized in the `.env` file.
 - **Backend:**
   - Prisma schema is defined in the `prisma/schema.prisma` file.
   - For further customizations, refer to the `routes` folder for API endpoints.
@@ -96,7 +93,6 @@ If you encounter issues, ensure:
 2. Your MySQL database is running.
 3. Dependencies are installed with no errors.
 
-For further assistance, check the repository's issue tracker or documentation.
 
 ---
 
@@ -105,8 +101,7 @@ For further assistance, check the repository's issue tracker or documentation.
 #### Frontend:
 
 - **Run in development mode:** `npm run dev`
-- **Build for production:** `npm run build`
-- **Start production server:** `npm start`
+
 
 #### Backend:
 
@@ -116,4 +111,4 @@ For further assistance, check the repository's issue tracker or documentation.
 
 ---
 
-Happy coding!
+Thanks
